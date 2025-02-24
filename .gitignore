@@ -1,3 +1,6 @@
 .env
 .vscode/
 *.rpyc
+
+# Remove for your own project
+*.rpy
