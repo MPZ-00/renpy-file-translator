@@ -157,6 +157,8 @@ def main():
         for rpy_file in lang_dir.rglob("*.rpy"):
             print(f"  -> Translating: {rpy_file}")
             process_rpy_file(rpy_file, target_lang, args.formality)
+    print("Done.")
+    print("Remember to check the results for correctness!")
 
 if __name__ == "__main__":
     main()
